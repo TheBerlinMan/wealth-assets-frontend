@@ -5,8 +5,9 @@
 ```
 git clone https://github.com/TheBerlinMan/wealth-assets-frontend.git
 cd wealth-assets-frontend
+
 npm install
-npm start
+npm run dev
 ```
 
 ## Design Decisions
