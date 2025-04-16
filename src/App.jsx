@@ -24,7 +24,7 @@ function App() {
     (acc, asset) => acc + asset.balanceCurrent, 0
   );
 
-  if (assets.length === 0) return <div>Loading...</div>;
+  if (assets.length === 0) return <div className="text-white text-2xl font-bold m-6">Loading...</div>;
   return (
     <div className="text-white m-6 pt-2 space-y-4 ">
       <h1 className="text-2xl font-bold">Account Dashboard</h1>
