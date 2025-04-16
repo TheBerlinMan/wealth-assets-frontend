@@ -1,6 +1,7 @@
 
 
 ## Start Up
+Make sure the backend is already running. Backend repo: https://github.com/TheBerlinMan/wealth-assets-backend
 
 ```
 git clone https://github.com/TheBerlinMan/wealth-assets-frontend.git
