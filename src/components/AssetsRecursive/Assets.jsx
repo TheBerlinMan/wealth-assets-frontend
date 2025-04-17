@@ -1,5 +1,6 @@
 import React from "react";
 import { AssetList } from "./AssetList";
+
 const Assets = ({ assets }) => {
   const tree = [];
 
