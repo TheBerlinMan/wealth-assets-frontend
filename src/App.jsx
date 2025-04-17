@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import * as AssetService from "./Services/AssetService";
 import AssetOverview from "./components/AssetsOverview/AssetsOverview";
-
+import { Assets } from "./components/AssetsRecursive/Assets";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { formatCurrency } from "./lib/utils";
 
@@ -49,6 +49,7 @@ function App() {
           <AssetOverview assets={assets} />
         </CardContent>
       </Card>
+      {/* <Assets assets={assets} /> */}
     </div>
   );
 }
