@@ -1,6 +1,17 @@
 
 
 ## Start Up
+
+Connect to the backend:
+```
+### 04/22/25 - I realized today that I did not include the environment variables in my original submission. I'm so sorry - I hope that you still consider my submission...  
+
+touch .env
+
+#copy and paste in the newly created .env file
+VITE_BACKEND_URL=http://localhost:3001
+```
+
 Make sure the backend is already running. 
 Backend Repo: https://github.com/TheBerlinMan/wealth-assets-backend
 
